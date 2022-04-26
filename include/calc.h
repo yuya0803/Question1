@@ -3,6 +3,6 @@
 
 int sigmakk(int, int);
 
-int calc2(int, int);
+double sekiwa(int, int);
 
 #endif // _CALC_H_

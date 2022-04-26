@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "calc.h"
+#include "../include/calc.h"
 
 int sigmakk(int k, int n)
 {
@@ -13,13 +13,13 @@ int sigmakk(int k, int n)
     return sum1;
 }
 
-int calc2(int k,int n)
+double sekiwa(int k, int n)
 {
-    double sum2=0;
+    double sum2=1.0;
 
     for(k=1;k<=n;k++)
     {
-        sum2=sum2+1/(k*k):
+        sum2=sum2*1/(k*k);
     }
 
     return sum2;
