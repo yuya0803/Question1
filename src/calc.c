@@ -24,3 +24,15 @@ double sekiwa(int k, int n)
 
     return sum2;
 }
+
+int nkaijo(int k,int n)
+{
+    int fact=1;
+
+    for(k=1;k<=n;k++)
+    {
+        fact=fact*k;
+    }
+
+    return fact;
+}

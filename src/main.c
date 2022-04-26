@@ -4,6 +4,7 @@
 int main()
 {
     int n,k,sum1;
+    int fact=1;
     double sum2=1.0;
 
     /*toi1 (1)*/
@@ -20,6 +21,13 @@ int main()
 
     sum2=sekiwa(k,n);
     printf("問1 (2) n=%dの時=%.10lf\n",n,sum2);
+
+    /*toi1 (3)*/
+    printf("問1 (3) n=");
+    scanf("%d",&n);
+
+    fact=nkaijo(k,n);
+    printf("問1 (3) n=%dの時=%d\n",n,fact);
 
     return 0;
 
