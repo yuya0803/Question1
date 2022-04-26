@@ -3,9 +3,10 @@
 
 int main()
 {
-    int n,k,sum1;
+    int n,k,sum1,i,a,b,m;
     int fact=1;
     double sum2=1.0;
+    int aa=1,bb=1,cc=1,dd=1;
 
     /*toi1 (1)*/
     printf("問1 (1) n=");
@@ -28,6 +29,17 @@ int main()
 
     fact=nkaijo(k,n);
     printf("問1 (3) n=%dの時=%d\n",n,fact);
+
+    /*toi1 (4)*/
+    printf("問1 (4) nCmの計算");
+    printf("n=");
+    scanf("%d",&n);
+    printf("m=");
+    scanf("%d",&m);
+
+    dd=combnm(n,m);
+
+    printf("%dC%d=%d\n",n,m,dd);
 
     return 0;
 
