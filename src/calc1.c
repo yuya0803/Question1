@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "../include/calc.h"
+#include "../include/calc1.h"
 
 int sigmakk(int k, int n)
 {
