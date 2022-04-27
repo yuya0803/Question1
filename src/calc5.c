@@ -13,3 +13,16 @@ double toi51(int m,int n)
 
     return sum1;
 }
+
+double toi52(int m, int n)
+{
+    double sum2=0.0, a=-1.0;
+
+    for(m=0;m<=n;m++)
+    {
+        a*=-1.0;
+        sum2=sum2+a/(2*m+1);
+    }
+
+    return sum2;
+}
